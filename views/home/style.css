@@ -1,7 +1,7 @@
 body {
     background: var(--background, #F5F6F7);
     margin: 0;
-    
+    width: 360%;
 }
 
 
