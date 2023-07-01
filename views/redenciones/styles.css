@@ -1,0 +1,99 @@
+.header {
+    background-color: #FFF;
+
+    .head {
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    }
+
+    .navegar {
+        display: flex;
+        justify-content: space-around;
+        height: 66px;
+        padding-top: 15px;
+        margin-top: 18px;
+
+        .items {
+            background: var(--fondo-de-boton, #ECEDF1);
+            width: 69px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px 20px;
+            border-radius: 20px;
+            color: var(--grey, #686E7F);
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+
+            .p {
+                margin: 0;
+            }
+
+        }
+
+        .selected {
+            background: linear-gradient(#ECEDF1, #ECEDF1) padding-box, linear-gradient(177deg, #FFD500 0%, #FF2800 100%)border-box;
+            border-radius: 50em;
+            border: 2px solid transparent;
+            width: 92px;
+
+            .gradient-text {
+                background: -webkit-linear-gradient(#FFD500 0%, #FF2800 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+
+    }
+}
+
+.tags {
+    display: flex;
+    width: 360px;
+    height: 47px;
+    padding: 2.5px 0px;
+    margin-top: 0;
+    align-items: center;
+    flex-shrink: 0;
+
+    .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        .select {
+            border-bottom: 2px solid #FF7400;
+
+        }
+
+        .tag {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 45px 16px;
+            height: 22px;
+        }
+
+        .selected {
+            color: #FF7400;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .p {
+            margin: 0;
+        }
+    }
+
+}
