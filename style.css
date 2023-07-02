@@ -1,8 +1,8 @@
-.header {
+#header {
     background-color: #FFF;
 
-    .head {
-        .icons {
+    #head {
+        #icons {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
